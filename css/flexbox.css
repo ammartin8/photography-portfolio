@@ -1,0 +1,18 @@
+/* Flex box Layout */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+@media (min-width: 769px) {
+  /* /Centers footer to middle of page */
+  .inside-footer {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1150px;
+  }
+
+
+}
